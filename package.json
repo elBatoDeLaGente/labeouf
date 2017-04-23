@@ -1,0 +1,32 @@
+{
+    "name": "untitled-project",
+    "version": "1.0.0",
+    "main": "serber/server.js",
+    "author": "El Bato de la Gente",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server/server.js",
+        "dev": "webpack-dev-server --progress --colors"
+    },
+    "devDependencies": {
+        "webpack": "^2.4.1"
+    },
+    "dependencies": {
+        "@angular/animations": "^4.0.3",
+        "@angular/common": "^4.0.3",
+        "@angular/compiler": "^4.0.3",
+        "@angular/compiler-cli": "^4.0.3",
+        "@angular/core": "^4.0.3",
+        "@angular/forms": "^4.0.3",
+        "@angular/http": "^4.0.3",
+        "@angular/platform-browser": "^4.0.3",
+        "@angular/platform-browser-dynamic": "^4.0.3",
+        "@angular/platform-server": "^4.0.3",
+        "@angular/router": "^4.0.3",
+        "express": "^4.15.2",
+        "pug": "^2.0.0-beta.12",
+        "ts-loader": "^2.0.3",
+        "typescript": "^2.2.2",
+        "webpack-dev-server": "^2.4.4"
+    }
+}
